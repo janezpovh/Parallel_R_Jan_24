@@ -1,0 +1,7 @@
+size  rank  host  max_eigen_value
+48 0 cn61 NaN
+slurmstepd: error:  mpi/pmix_v3: _errhandler: cn61 [0]: pmixp_client_v2.c:211: Error handler invoked: status = -25, source = [slurm.pmix.73806.0:0]
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 73806.0 ON cn61 CANCELLED AT 2024-01-18T11:34:14 ***
+srun: error: cn61: tasks 1-23: Killed
+srun: error: cn63: tasks 24-47: Killed
